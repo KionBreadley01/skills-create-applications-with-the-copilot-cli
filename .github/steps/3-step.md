@@ -1,4 +1,4 @@
-## Step 3: Expand Calculator Functionality
+## Step: Expand Calculator Functionality
 
 Duck wants to expand the calculator with additional operations by creating a new issue and working with Copilot CLI to implement the enhancements.
 
@@ -28,12 +28,11 @@ For more complex tasks, you can use the `/delegate` command exampled below to as
 > ```
 
 Copilot coding agent will:
-
-1. Create a new branch automatically
-2. Open a draft pull request
-3. Work on the task autonomously
-4. Stream output to your terminal
-5. Request your review when complete
+- Create a new branch automatically
+- Open a draft pull request
+- Work on the task autonomously
+- Stream output to your terminal
+- Request your review when complete
 
 > [!NOTE]
 > Using the `/delegate` command to leverage the Copilot Coding Agent (CCA) will consume premium requests from your GitHub Copilot subscription. Copilot CLI can be also used with regular models, which don't use premium requests.
@@ -58,16 +57,14 @@ As you add features, Copilot CLI can help you:
 > Use with caution, as it grants the CLI full access and automation capabilities.
 
 ### ⌨️ Activity: Add More Operations to the Calculator
-
-1. Start an interactive Copilot CLI session (if not already in a session):
+- Start an interactive Copilot CLI session (if not already in a session):
 
    > ![Static Badge](https://img.shields.io/badge/Terminal-text?logo=gnometerminal&labelColor=0969da&color=ddf4ff)
    >
    > ```bash
    > copilot --allow-all --enable-all-github-mcp-tools
    > ```
-
-1. Ask Copilot CLI to help you create another issue for expanding the calculator:
+- Ask Copilot CLI to help you create another issue for expanding the calculator:
 
    > ![Static Badge](https://img.shields.io/badge/CLI-Prompt-text?style=flat-square&logo=github-copilot&labelColor=8250df&color=fbefff)
    >
@@ -81,8 +78,7 @@ As you add features, Copilot CLI can help you:
    > Create the issue directly for the current owner and repository in this session on github.com using the `gh` CLI commands.
    > List the issue link when complete
    > ```
-
-1. Work with Copilot CLI to implement the new operations:
+- Work with Copilot CLI to implement the new operations:
 
    > ![Static Badge](https://img.shields.io/badge/CLI-Prompt-text?style=flat-square&logo=github-copilot&labelColor=8250df&color=fbefff)
    >
@@ -92,8 +88,7 @@ As you add features, Copilot CLI can help you:
    > 2. power(base, exponent) - returns base raised to the exponent
    > 3. squareRoot(n) - returns the square root of n with error handling for negative numbers
    > ```
-
-   1. Optional alternatively, use the headless mode:
+- Optional alternatively, use the headless mode:
 
       > ![Static Badge](https://img.shields.io/badge/CLI-Prompt-text?style=flat-square&logo=github-copilot&labelColor=8250df&color=fbefff)
       >
@@ -103,8 +98,7 @@ As you add features, Copilot CLI can help you:
       > 2. power(base, exponent) - returns base raised to the exponent
       > 3. squareRoot(n) - returns the square root of n with error handling for negative numbers"
       > ```
-
-1. Test your new functions and add tests:
+- Test your new functions and add tests:
 
    > ![Static Badge](https://img.shields.io/badge/CLI-Prompt-text?style=flat-square&logo=github-copilot&labelColor=8250df&color=fbefff)
    >
@@ -117,8 +111,7 @@ As you add features, Copilot CLI can help you:
    > - Make sure to include edge case tests like square root of negative numbers
    > - Make sure all tests run and pass
    > ```
-
-1. Commit your changes:
+- Commit your changes:
 
    > ![Static Badge](https://img.shields.io/badge/CLI-Prompt-text?style=flat-square&logo=github-copilot&labelColor=8250df&color=fbefff)
    >
@@ -128,8 +121,7 @@ As you add features, Copilot CLI can help you:
    > modulo, power, square root" 
    > Push the changes
    > ```
-
-1. Wait a moment for Mona to check your work, provide feedback, and share the next lesson.
+- Wait a moment for Mona to check your work, provide feedback, and share the next lesson.
 
 > [!TIP]
 > Use `/share gist` in your Copilot CLI session to save your GitHub Skills exercise session as a GitHub gist for future reference!
@@ -145,3 +137,4 @@ As you add features, Copilot CLI can help you:
 - Use `copilot --help` to see all available command options
 
 </details>
+

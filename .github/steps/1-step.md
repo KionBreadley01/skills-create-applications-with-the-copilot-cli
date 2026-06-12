@@ -1,4 +1,4 @@
-## Step 1: Install Copilot CLI and Use the Issue Template
+## Step: Install Copilot CLI and Use the Issue Template
 
 Duck prefers working in the terminal and wants to use AI from there.
 Duck is getting ready to develop a new Node.js CLI calculator app and plans to install the standalone Copilot CLI to build the application from the terminal.
@@ -69,8 +69,7 @@ Issue templates help maintain consistency when team members create issues. This 
 > or use `/login` from within the Copilot CLI session.
 
 ### :keyboard: Activity 1: Getting to know your development environment
-
-1. Right-click the below button to open the **Create Codespace** page in a new tab.
+- Right-click the below button to open the **Create Codespace** page in a new tab.
 
    [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/{{full_repo_name}}?quickstart=1)
    - The free tier of Codespaces that comes with all GitHub accounts is fine, assuming you still have minutes available.
@@ -78,28 +77,22 @@ Issue templates help maintain consistency when team members create issues. This 
 
 > [!IMPORTANT]
 > This Codespace VS Code environment has been simplified to focus on using the Copilot CLI in the terminal. You'll primarily be working with terminal commands rather than the full VS Code feature set.
-
-1. Confirm the **Repository** field is your copy of the exercise, not the original, then click the green **Create Codespace** button.
+- Confirm the **Repository** field is your copy of the exercise, not the original, then click the green **Create Codespace** button.
    - ✅ Your copy: `/{{full_repo_name}}`
    - ❌ Original: `/arilivigni/create-applications-with-the-copilot-CLI`
-
-1. Wait a moment for Visual Studio Code to load.
-
-1. We will be focused on the full terminal window since this is all about the CLI.
+- Wait a moment for Visual Studio Code to load.
+- We will be focused on the full terminal window since this is all about the CLI.
 
 ### ⌨️ Activity 2: Install the Standalone Copilot CLI
-
-1. Open your Codespace (if not already open)
-
-1. Install the standalone GitHub Copilot CLI by running in the terminal window:
+- Open your Codespace (if not already open)
+- Install the standalone GitHub Copilot CLI by running in the terminal window:
 
    > ![Static Badge](https://img.shields.io/badge/Terminal-text?logo=gnometerminal&labelColor=0969da&color=ddf4ff)
 
    > ```bash
    > npm install -g @github/copilot
    > ```
-
-1. Verify the installation by running:
+- Verify the installation by running:
 
    > ![Static Badge](https://img.shields.io/badge/Terminal-text?logo=gnometerminal&labelColor=0969da&color=ddf4ff)
 
@@ -111,8 +104,7 @@ Issue templates help maintain consistency when team members create issues. This 
 > After installation, you can use the `copilot` command anywhere in your terminal to start an interactive session!
 
 ### ⌨️ Activity 3: Create an Issue Using Copilot CLI
-
-1. Start an interactive Copilot CLI session:
+- Start an interactive Copilot CLI session:
 
    > ![Static Badge](https://img.shields.io/badge/Terminal-text?logo=gnometerminal&labelColor=0969da&color=ddf4ff)
    >
@@ -126,9 +118,7 @@ Issue templates help maintain consistency when team members create issues. This 
 <img width="60%" height="60%" alt="CopilotCLIAddDir" src="https://github.com/KionBreadley01/skills-create-applications-with-the-copilot-cli/blob/main/.github/images/copilot-cli-add-directory.png?raw=true" />
 <br />
 <img width="60%" height="60%" alt="CopilotCLITerminalBindings" src="https://github.com/KionBreadley01/skills-create-applications-with-the-copilot-cli/blob/main/.github/images/copilot-cli-terminal-bindings.png?raw=true" />
-
-
-2. Authorize with GitHub (if not already authenticated) in the Copilot CLI:
+- Authorize with GitHub (if not already authenticated) in the Copilot CLI:
 
    > ![Static Badge](https://img.shields.io/badge/CLI-Prompt-text?style=flat-square&logo=github-copilot&labelColor=8250df&color=fbefff)
    >
@@ -138,8 +128,7 @@ Issue templates help maintain consistency when team members create issues. This 
 
 > [!NOTE]
 > After running `/login`, you will be provided with a link and an authentication code. Click the link to open GitHub in your browser, then enter the code to complete the authentication process.
-
-3. Explore useful slash commands in Copilot CLI:
+- Explore useful slash commands in Copilot CLI:
    - View your current session information:
 
      > ![Static Badge](https://img.shields.io/badge/CLI-Prompt-text?style=flat-square&logo=github-copilot&labelColor=8250df&color=fbefff)
@@ -173,8 +162,7 @@ Issue templates help maintain consistency when team members create issues. This 
 >   - The session duration
 >   - The total lines of code edited
 >   - A breakdown of token usage per model
-
-4. Ask Copilot CLI to help you create a feature request issue for the calculator app:
+- Ask Copilot CLI to help you create a feature request issue for the calculator app:
 
    > ![Static Badge](https://img.shields.io/badge/CLI-Prompt-text?style=flat-square&logo=github-copilot&labelColor=8250df&color=fbefff)
    >
@@ -193,8 +181,7 @@ Issue templates help maintain consistency when team members create issues. This 
    > and repository on github.com using the `gh` CLI commands.
    > List the issue link when complete
    > ```
-
-5. Mona should already be busy checking your work. Give her a moment and keep watch in the comments. You will see her respond with progress info and the next lesson.
+- Mona should already be busy checking your work. Give her a moment and keep watch in the comments. You will see her respond with progress info and the next lesson.
 
 > [!NOTE]
 > Copilot CLI may ask to confirm creating the issue and using `gh issue` and `git config`.
@@ -213,3 +200,4 @@ Issue templates help maintain consistency when team members create issues. This 
 - You can also create the issue through the GitHub UI if needed
 
 </details>
+

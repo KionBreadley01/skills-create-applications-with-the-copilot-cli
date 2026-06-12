@@ -1,4 +1,4 @@
-## Step 4: Create, Review, and Merge Your Pull Request
+## Step: Create, Review, and Merge Your Pull Request
 
 Duck is ready to finalize the development work by creating a pull request, linking it to both issues, getting a review from Copilot, and merging the changes—all from the command line with Copilot CLI.
 
@@ -49,16 +49,14 @@ The Copilot CLI enables you to:
 > or use `/login` from within the Copilot CLI session.
 
 ### ⌨️ Activity: Complete Your Pull Request Workflow
-
-1. Start an interactive Copilot CLI session (if not already in a session):
+- Start an interactive Copilot CLI session (if not already in a session):
 
    > ![Static Badge](https://img.shields.io/badge/Terminal-text?logo=gnometerminal&labelColor=0969da&color=ddf4ff)
    >
    > ```bash
    > copilot --allow-all --enable-all-github-mcp-tools
    > ```
-
-2. Create a pull request for your changes and add Copilot as a reviewer:
+- Create a pull request for your changes and add Copilot as a reviewer:
 
    > ![Static Badge](https://img.shields.io/badge/CLI-Prompt-text?style=flat-square&logo=github-copilot&labelColor=8250df&color=fbefff)
    >
@@ -69,8 +67,7 @@ The Copilot CLI enables you to:
    > and request a review on the PR.
    > List the PR link when it is completely created
    > ```
-
-3. Attach the pull request to both issues you created earlier:
+- Attach the pull request to both issues you created earlier:
 
    > ![Static Badge](https://img.shields.io/badge/CLI-Prompt-text?style=flat-square&logo=github-copilot&labelColor=8250df&color=fbefff)
    >
@@ -78,8 +75,7 @@ The Copilot CLI enables you to:
    > Link the pull request I just created to both the "Create a calculator" and 
    > "Add more operations" issues so they close automatically when merged.
    > ```
-
-4. Merge the pull request after Copilot's review is complete:
+- Merge the pull request after Copilot's review is complete:
 
    > ![Static Badge](https://img.shields.io/badge/CLI-Prompt-text?style=flat-square&logo=github-copilot&labelColor=8250df&color=fbefff)
    >
@@ -91,8 +87,7 @@ The Copilot CLI enables you to:
 > When you merge a PR that's linked to issues using "Closes #<issue-number>",
 > GitHub automatically closes those issues. The squash merge option keeps your
 > main branch history clean.
-
-5. Verify that both issues are now closed:
+- Verify that both issues are now closed:
 
    > ![Static Badge](https://img.shields.io/badge/CLI-Prompt-text?style=flat-square&logo=github-copilot&labelColor=8250df&color=fbefff)
    >
@@ -100,8 +95,7 @@ The Copilot CLI enables you to:
    > List the closed issues in the repository to confirm both the "Create a calculator" 
    > and "Add more operations" issues are now closed.
    > ```
-
-6. Wait a moment for Mona to check your work, provide feedback, and share the next lesson.
+- Wait a moment for Mona to check your work, provide feedback, and share the next lesson.
 
 > [!TIP]
 > Use `/share gist` in your Copilot CLI session to save your GitHub Skills exercise session
@@ -120,3 +114,4 @@ The Copilot CLI enables you to:
 - Use `!gh pr merge --squash` to merge with a clean history
 
 </details>
+
